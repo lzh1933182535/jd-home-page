@@ -1,0 +1,170 @@
+[class^="icon_"],
+[class*=" icon_"] {
+  background-image: url("../images/sprites.png");
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.br {
+  border-right: 1px solid #ddd;
+}
+.bb {
+  border-bottom: 1px solid #ddd;
+}
+.textColorRed {
+  color: #d8505c;
+}
+.oldPrice {
+  text-decoration: line-through;
+}
+.fz16 {
+  font-size: 16px;
+}
+.fz14 {
+  font-size: 14px;
+}
+.icon_logo {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  width: 60px;
+  height: 36px;
+  background-position: 0 -103px;
+}
+.jd-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 10.666666666666668vw;
+  z-index: 1000;
+  background-color: rgba(201,21,35,0);
+}
+.jd-header-input {
+  width: 70.66666666666667vw;
+  height: 8vw;
+  margin-top: 1.333333333333333vw;
+  margin-left: 18.666666666666668vw;
+  padding-left: 8vw;
+  border-radius: 4vw;
+  border: none;
+  outline: none;
+  resize: none;
+  -webkit-appearance: none;
+}
+.icon_search {
+  position: absolute;
+  left: 80px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: -60px -109px;
+}
+.login {
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+.jd-banner img {
+  height: 48.53333333333333vw;
+  width: 100%;
+}
+.jd-content .jd-content-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 2.666666666666667vw 0;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+.jd-content .jd-content-nav li {
+  width: 24.933333333333334vw;
+  height: 17.599999999999998vw;
+  text-align: center;
+}
+.jd-content .jd-content-nav img {
+  display: block;
+  height: 10.666666666666668vw;
+  width: 10.666666666666668vw;
+  margin: 0 7.199999999999999vw;
+}
+.jd-content .jd-content-nav p {
+  font-size: 3.2vw;
+  color: #666;
+  padding: 1.333333333333333vw 0;
+}
+.jd-content .jd-content-commodity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jd-content-commodity section {
+  width: 97.33333333333334vw;
+  margin-top: 2.666666666666667vw;
+  background-color: #fff;
+}
+.jd-content-commodity .content .miao p:not(.oldPrice) {
+  padding: 0.8vw 0;
+  text-align: center;
+  font-size: 1.6vw;
+}
+.jd-content-commodity .content .miao p {
+  text-align: center;
+  font-size: 1.6vw;
+}
+.jd-content-commodity .content .miao img {
+  width: 20.533333333333335vw;
+  height: 20.533333333333335vw;
+  padding: 0 5.600000000000001vw;
+}
+.jd-content-commodity section .title {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.jd-content-commodity .nb .icon {
+  float: left;
+  margin-left: 2.666666666666667vw;
+  margin-top: 1.866666666666667vw;
+  width: 4.266666666666667vw;
+  height: 5.333333333333334vw;
+}
+.jd-content-commodity section .nb {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 9.066666666666666vw;
+  line-height: 9.066666666666666vw;
+  border-bottom: none;
+}
+.jd-content .jd-content-commodity .title h3 {
+  width: 91.2vw;
+  height: 9.066666666666666vw;
+  color: #333;
+  margin-left: 6.133333333333333vw;
+  line-height: 9.066666666666666vw;
+}
+.jd-content-commodity h3::before {
+  position: absolute;
+  left: 2.666666666666667vw;
+  top: 2.933333333333333vw;
+  content: "";
+  width: 0.8vw;
+  height: 3.2vw;
+  background-color: #d8505c;
+}
+.jd-content-commodity .content {
+  width: 100%;
+}
+.jd-content-commodity .content img {
+  width: 48.53333333333333vw;
+}
+.swiper-container {
+  --swiper-theme-color: #fff;
+  width: 100%;
+  height: 48.53333333333333vw;
+}
